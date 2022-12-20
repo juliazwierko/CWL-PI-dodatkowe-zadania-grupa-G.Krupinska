@@ -49,7 +49,6 @@ int main(void)
   double Sriednia = Suma/20;
   printf("Suma: %f\n", Suma);
   printf("Sriednia arytmetyczna: %f\n", Sriednia);
-
-  printf("\n");
+  
   return 0; 
 }
