@@ -28,6 +28,33 @@ int main()
         }
     }
     printf("Ilosc Liczb nie podzelnych przez 5 i podzielnych przez 4: %d", liczenie);
-
+  
+    printf("\n");
     return 0;
 }
+
+/*
+OUTPUT:
+(-4) - jest podzielna przez 4 i niepodzelna przez 5
+(4) - jest podzielna przez 4 i niepodzelna przez 5
+(8) - jest podzielna przez 4 i niepodzelna przez 5
+(12) - jest podzielna przez 4 i niepodzelna przez 5
+(16) - jest podzielna przez 4 i niepodzelna przez 5
+(24) - jest podzielna przez 4 i niepodzelna przez 5
+(28) - jest podzielna przez 4 i niepodzelna przez 5
+(32) - jest podzielna przez 4 i niepodzelna przez 5
+(36) - jest podzielna przez 4 i niepodzelna przez 5
+(44) - jest podzielna przez 4 i niepodzelna przez 5
+(48) - jest podzielna przez 4 i niepodzelna przez 5
+(52) - jest podzielna przez 4 i niepodzelna przez 5
+(56) - jest podzielna przez 4 i niepodzelna przez 5
+(64) - jest podzielna przez 4 i niepodzelna przez 5
+(68) - jest podzielna przez 4 i niepodzelna przez 5
+(72) - jest podzielna przez 4 i niepodzelna przez 5
+(76) - jest podzielna przez 4 i niepodzelna przez 5
+(84) - jest podzielna przez 4 i niepodzelna przez 5
+(88) - jest podzielna przez 4 i niepodzelna przez 5
+(92) - jest podzielna przez 4 i niepodzelna przez 5
+(96) - jest podzielna przez 4 i niepodzelna przez 5
+Ilosc Liczb nie podzelnych przez 5 i podzielnych przez 4: 21
+*/
