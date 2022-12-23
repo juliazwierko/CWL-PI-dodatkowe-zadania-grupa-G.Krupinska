@@ -13,36 +13,21 @@
 
 int main() 
 {
-    printf("Wpisz kwotę: ");
-    int kwota1;
-    int kwota2;
-    int kwota3;
-
-    scanf("%d", &kwota1);
-
-    int mod1 = kwota1%10;
-    if ((mod1!= 5 && mod1 != -5 && mod1 !=0))
+    int kwota;
+    int wyjscie = 0;
+    int mod = 0;
+    do 
     {
-        printf("Wpisz kwote podzelna przez 5.\n");
-        scanf("%d", &kwota2);
-        int mod2 = kwota2%10;
-        if ((mod2 != 5 && mod2 != -5 && mod2 != 0))
-        {
-            printf("Wpisz kwote podzelna przez 5.\n");
-            scanf("%d", &kwota3);
-            int mod3 = kwota3%10;
-            if ((mod3!= 5 && mod3 != -5 && mod3 !=0))
-            {
-                printf("");
-            }
-        }
-    }
-    else 
-    {
-        printf("Kwota zostala wpisana poprawno\n");
-    }
+        printf("Proszę wpisać kwotę podzielna przez 5: ");
+        scanf("%d", &kwota);
+        mod = kwota%5;
+        wyjscie += 1
+    } while ((wyjscie < 3) && (mod != 0));
 
-////////////////in process//////////////// 
+    
+    ////////in process/////////
+    
   
+    
     return 0;
 }
