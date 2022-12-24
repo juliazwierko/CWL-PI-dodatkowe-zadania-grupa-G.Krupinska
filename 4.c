@@ -55,3 +55,18 @@ int main()
     
     return 0;
 }
+
+/*
+OutPut:
+
+Proszę wpisać kwotę podzielna przez 5: 85
+Wpisana kwota: 85
+Dostepne banknoty:
+1)20 zl
+2)10 zl
+3)5 zl
+
+Minimana ilosc bamnknot wynosi: 5
+*/
+
+//85 = 20+20+20+20+5 - 5 banknot i t.d. ...
