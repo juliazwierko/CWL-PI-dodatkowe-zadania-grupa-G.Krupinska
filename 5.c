@@ -28,7 +28,7 @@ int main()
         char zmianaliterki = 'A';
         for(int j=0; j<i; j++)
         {
-            printf("_");
+            printf(" ");
         }
 
         for(int j=0; j<wysokosc-i; j++)
@@ -44,7 +44,7 @@ int main()
         }
         for(int j=0; j<i; j++)
         {
-            printf("_");
+            printf(" ");
         }
         printf("\n");
     }
@@ -53,26 +53,3 @@ int main()
     return 0;
 }
 
-/*
-ABCDEFGHIJKLMNOPQRSTUTSRQPONMLKJIHGFEDCBA
-_ABCDEFGHIJKLMNOPQRSTSRQPONMLKJIHGFEDCBA_
-__ABCDEFGHIJKLMNOPQRSRQPONMLKJIHGFEDCBA__
-___ABCDEFGHIJKLMNOPQRQPONMLKJIHGFEDCBA___
-____ABCDEFGHIJKLMNOPQPONMLKJIHGFEDCBA____
-_____ABCDEFGHIJKLMNOPONMLKJIHGFEDCBA_____
-______ABCDEFGHIJKLMNONMLKJIHGFEDCBA______
-_______ABCDEFGHIJKLMNMLKJIHGFEDCBA_______
-________ABCDEFGHIJKLMLKJIHGFEDCBA________
-_________ABCDEFGHIJKLKJIHGFEDCBA_________
-__________ABCDEFGHIJKJIHGFEDCBA__________
-___________ABCDEFGHIJIHGFEDCBA___________
-____________ABCDEFGHIHGFEDCBA____________
-_____________ABCDEFGHGFEDCBA_____________
-______________ABCDEFGFEDCBA______________
-_______________ABCDEFEDCBA_______________
-________________ABCDEDCBA________________
-_________________ABCDCBA_________________
-__________________ABCBA__________________
-___________________ABA___________________
-____________________A____________________
-*/
