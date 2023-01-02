@@ -7,7 +7,6 @@
     elelemnt liczba[8]='\0'
     Program wczyta liczbe i wypisuje jej konwersje (lancuch znakow)
 */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
